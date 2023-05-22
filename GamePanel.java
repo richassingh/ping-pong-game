@@ -56,7 +56,7 @@ public class GamePanel extends Panel implements Runnable {
     }
 
     @Override
-    public void paint(Graphics g) {
+    public void update(Graphics g) {
         super.paint(g);
         image=createImage(getWidth(),getHeight());
         graphics=image.getGraphics();
